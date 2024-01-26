@@ -1,0 +1,16 @@
+{
+  "name": "poc-drizzle-join",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.3.0",
+    "drizzle-kit": "^0.20.13",
+    "drizzle-orm": "^0.29.3"
+  }
+}

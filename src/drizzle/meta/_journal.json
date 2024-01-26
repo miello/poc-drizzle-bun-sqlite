@@ -1,0 +1,13 @@
+{
+  "version": "5",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1706292054419,
+      "tag": "0000_ordinary_deathstrike",
+      "breakpoints": true
+    }
+  ]
+}
