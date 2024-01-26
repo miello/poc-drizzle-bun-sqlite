@@ -9,6 +9,7 @@ bun install
 To run:
 
 ```bash
+bun run drizzle-kit push:sqlite
 bun run index.ts
 ```
 

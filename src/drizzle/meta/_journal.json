@@ -8,6 +8,13 @@
       "when": 1706292054419,
       "tag": "0000_ordinary_deathstrike",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1706294051255,
+      "tag": "0001_grey_roland_deschain",
+      "breakpoints": true
     }
   ]
 }

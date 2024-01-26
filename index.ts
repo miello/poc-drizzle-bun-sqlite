@@ -11,11 +11,13 @@ const insertNewData = async () => {
     await tx.insert(schema.users).values({
       userId: "1234",
       data: "Hello world",
+      testing: "Hello 1234"
     });
 
     await tx.insert(schema.users).values({
       userId: "23456",
       data: "Hello world",
+      testing: "Hello 2"
     });
 
     await tx.insert(schema.projects).values({
@@ -39,6 +41,7 @@ const queryData = async () => {
       userId: schema.users.userId,
       projectId: schema.projects.projectId,
       data: schema.users.data,
+      testing: schema.users.testing
     })
     .from(schema.projects)
     .fullJoin(schema.users, eq(schema.users.userId, schema.projects.userId))

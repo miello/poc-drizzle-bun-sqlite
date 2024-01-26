@@ -5,6 +5,7 @@ export const users = sqliteTable(
   {
     userId: text("user_id").primaryKey(),
     data: text("data"),
+    testing: text("testing")
   },
 )
 
